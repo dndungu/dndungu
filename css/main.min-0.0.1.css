@@ -1,0 +1,251 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .875em;
+}
+
+p,
+ul>li,
+ol>li {
+    font-size: .875em;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.text-left {
+    text-align:left
+}
+
+.text-center {
+    text-align:center;
+}
+
+.text-right {
+    text-align:right;
+}
+
+.text-justify {
+    text-align:justify;
+}
+
+.circle {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.navigation,
+.server-canvas {
+    height:100%;
+    display:inline-block;
+}
+
+.navigation {
+    float:left;
+    width:26%;
+    margin-right:1%;
+    background-color:#1e1e1e;
+}
+
+.navigation,
+.navigation a,
+.server-canvas h1,
+.server-canvas h3, 
+.server-canvas h4 {
+    color:#fff;
+}
+
+.main-actions .circle {
+    border:2px solid #646464;
+    display:inline-block;
+    padding:4px 0;
+    width:60px;
+    height:60px;
+    font-size:2.5em;
+    text-align:center;
+    margin:3em .25em .25em .25em;
+    cursor:pointer;
+}
+
+.main-actions ul li,
+.main-actions ul li a,
+.available-apps h6 {
+    color:#646464;
+}
+
+.available-apps h6 {
+    padding:1em 2em;
+    margin:0;
+}
+
+.main-actions .circle:hover {
+    border:2px solid #fff;
+}
+
+.main-actions ul li:hover,
+.main-actions ul li:hover a {
+    color:#fff;
+}
+
+.main-actions ul li {
+    width:auto;
+    display:inline-block;
+}
+
+.available-apps ul li {
+    background-color:#141414;
+    padding:1.25em 2em;
+    border-bottom:1px solid #1e1e1e;
+}
+
+.server-canvas h1 {
+    padding:.25em 2%;
+}
+
+.server-canvas {
+    width:73%;
+    float:right;
+}
+
+.server-canvas ul li {
+    width:21%;
+    height:142px;
+    margin:1em 2%;
+    float:left;
+    text-align:center;
+    display:inline-block;
+    border-radius:4px;
+    background-color:#1e1e1e;
+}
+
+.server-canvas ul li div {
+    display:block;
+    float:left;
+    border-radius:4px;
+    overflow:hidden;
+    height:142px;
+}
+.server-canvas ul li.has-1-apps div {
+    width:100%;
+}
+.server-canvas ul li.has-2-apps div {
+    width:50%;
+}
+.server-canvas ul li.has-2-apps div:first-child {
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.server-canvas ul li.has-2-apps div:last-child {
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.server-canvas ul li div.hadoop,
+.available-apps ul li a.hadoop {
+    background-color:#e107c0;
+}
+
+.available-apps ul li div.hadoop {
+    border-left:4px solid #e107c0;
+}
+
+.server-canvas ul li div.rails,
+.available-apps ul li a.rails {
+    background-color:#3c2dee;
+}
+
+.available-apps ul li div.rails {
+    border-left:4px solid #3c2dee;
+}
+
+.server-canvas ul li div.chronos,
+.available-apps ul li a.chronos {
+    background-color:#01aafd;
+}
+
+.available-apps ul li div.chronos {
+    border-left:4px solid #01aafd;
+}
+
+.server-canvas ul li div.storm,
+.available-apps ul li a.storm {
+    background-color:#2ce19c;
+}
+
+.available-apps ul li div.storm {
+    border-left:4px solid #2ce19c;
+}
+
+.server-canvas ul li div.spark,
+.available-apps ul li a.spark {
+    background-color:#69fa1a;
+}
+
+.available-apps ul li div.spark {
+    border-left:4px solid #69fa1a;
+}
+
+
+.available-apps ul li a.add,
+.available-apps ul li a.circle {
+    float:right;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    font-size:1.5em;
+    margin-top:-.25em;
+}
+
+.available-apps ul li a.destroy {
+    border:1px solid #646464;
+    color:#646464;
+}
+.available-apps ul li a.add {
+    color:#fff;
+    width:30px;
+    height:30px;
+    margin:-.25em -2em .24em 0;
+}

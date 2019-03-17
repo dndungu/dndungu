@@ -1,0 +1,79 @@
+<html lang="en-US">
+    <head>
+        <title>Front-end Challenge</title>
+        <meta charset="utf-8">
+        <link href="css/main.min-0.0.1.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="main-actions">
+                <ul class="text-center">
+                    <li>
+                        <a class="circle add-server">+</a>
+                        <br/>
+                        Add Server
+                    </li>
+                    <li>
+                        <a class="circle destroy-server">-</a>
+                        <br/>
+                        Destroy
+                    </li>
+            </div>
+            <div class="available-apps">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <h6>Available Apps</h6>
+                <ul>
+                    <li class="hadoop">
+                        <a>Hadoop</a>
+                        <a class="add add-service circle text-center hadoop" service="hadoop">+</a>
+                        <a class="destroy destroy-service circle text-center" service="hadoop">-</a>
+                    </li>
+                    <li class="rails">
+                        <a>Rails</a>
+                        <a class="add add-service circle text-center rails" service="rails">+</a>
+                        <a class="destroy destroy-service circle text-center" service="rails">-</a>
+                    </li>
+                    <li class="chronos">
+                        <a>Chronos</a>
+                        <a class="add add-service circle text-center chronos" service="chronos">+</a>
+                        <a class="destroy destroy-service circle text-center" service="chronos">-</a>
+                    </li>
+                    <li class="storm">
+                        <a>Storm</a>
+                        <a class="add add-service circle text-center storm" service="storm">+</a>
+                        <a class="destroy destroy-service circle text-center" service="storm">-</a>
+                    </li>
+                    <li class="spark">
+                        <a>Spark</a>
+                        <a class="add add-service circle text-center spark" service="spark">+</a>
+                        <a class="destroy destroy-service circle text-center" service="spark">-</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="server-canvas">
+            <br/>
+            <h1>Server Canvas</h1>
+            <div class="server-canvas-content">
+
+            </div>
+        </div>
+        <script src="js/core/dcos.js"></script>
+        <script src="js/core/dcos.broker.js"></script>
+        <script src="js/core/dcos.sync.js"></script>
+        <script src="js/core/dcos.xslt.js"></script>
+        <script src="js/core/dcos.storage.js"></script>
+        <script src="js/core/dcos.transition.js"></script>
+        <script src="js/core/dcos.os.js"></script>
+        <script src="js/apps/events.js"></script>
+        <script src="js/apps/canvas.js"></script>
+        <script src="js/lib/jquery-sizzle/sizzle.min.js"></script>
+        <script type="text/javascript">
+            dcos.apps.boot();
+        </script>
+    </body>
+</html>
