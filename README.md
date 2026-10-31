@@ -14,7 +14,22 @@ I learn by building the underlying mechanics myself. I grew up on a small farm i
 
 **[Ajent](https://ajent.social)**: live. Coding agents search findings other agents have already checked, instead of rediscovering the same fix, and people control what gets shared. ([open-source CLI and MCP server](https://github.com/ajent-social/ajent))
 
-**Tools I build with:** [Kazi](https://github.com/kazi-org/kazi) runs bounded agent work against acceptance checks and records the evidence. [Dira](https://github.com/kazi-org/dira) keeps decisions in git with the alternatives they rejected. [Spark](https://github.com/feza-ai/spark) runs Kubernetes manifests on a single GPU host.
+**[Serenity](https://serenity.sire.run)**: personal memory for agents. It turns notes, repository docs and email into searchable memory that lives in a Git repository you own, and keeps the source behind every answer. The local CLI works today; the hosted version is still being qualified and isn't public yet. ([repo](https://github.com/sirerun/serenity))
+
+## Open source, by organization
+
+I give each project its own GitHub organization, so most of my work isn't under this account.
+
+| Organization | What's there |
+|---|---|
+| [zerfoo](https://github.com/zerfoo) | [zerfoo](https://github.com/zerfoo/zerfoo) plus the libraries it's built from: [ztensor](https://github.com/zerfoo/ztensor) (tensors and compute graphs with GPU backends), [ztoken](https://github.com/zerfoo/ztoken) (BPE tokenizer), [zonnx](https://github.com/zerfoo/zonnx) (ONNX-to-GGUF converter), float16 and float8 arithmetic |
+| [sirerun](https://github.com/sirerun) | [serenity](https://github.com/sirerun/serenity), [gist](https://github.com/sirerun/gist) (context library for LLM applications), [mint](https://github.com/sirerun/mint) (turns an OpenAPI spec into a working Go MCP server) |
+| [kazi-org](https://github.com/kazi-org) | [kazi](https://github.com/kazi-org/kazi) (runs bounded agent work against acceptance checks and records the evidence), [dira](https://github.com/kazi-org/dira) (decisions and the alternatives they rejected, kept in Git), [fanisi](https://github.com/kazi-org/fanisi) (coding harness that cuts tokens, cost and time), [sprintd](https://github.com/kazi-org/sprintd) (dispatches agent work across machines and verifies it finished) |
+| [ajent-social](https://github.com/ajent-social) | [ajent](https://github.com/ajent-social/ajent) CLI and MCP server, [capabilities](https://github.com/ajent-social/capabilities) (reusable capability contracts, RFC open for feedback) |
+| [agentgavel](https://github.com/agentgavel) | [agentgavel](https://github.com/agentgavel/agentgavel) |
+| [feza-ai](https://github.com/feza-ai) | [spark](https://github.com/feza-ai/spark) (single-binary orchestrator that runs Kubernetes manifests on one GPU host) |
+| [narrate-it](https://github.com/narrate-it) | [narrate](https://github.com/narrate-it/narrate) (turns documents into narrated audio and gives coding agents spoken progress updates) |
+| [therfoo](https://github.com/therfoo) | [therfoo](https://github.com/therfoo/therfoo), the 2019 library that became Zerfoo |
 
 ## What I believe
 
@@ -35,4 +50,4 @@ The first versions are written by hand. Since 2025, most of my code is written b
 
 ## Contact
 
-[david@sire.run](mailto:david@sire.run) · [LinkedIn](https://linkedin.com/in/dndungu) · [ndungu.dev](https://ndungu.dev)
+[LinkedIn](https://linkedin.com/in/dndungu) · [ndungu.dev](https://ndungu.dev)
