@@ -50,4 +50,4 @@ The first versions are written by hand. Since 2025, most of my code is written b
 
 ## Contact
 
-[LinkedIn](https://linkedin.com/in/dndungu) · [ndungu.dev](https://ndungu.dev)
+[LinkedIn](https://linkedin.com/in/dndungu) · [ndungu.dev](https://ndungu.dev) · [zer.foo](https://zer.foo) · [agentgavel.dev](https://agentgavel.dev) · [ajent.social](https://ajent.social) · [zati.run](https://zati.run)
