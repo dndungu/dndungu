@@ -42,7 +42,7 @@ Generating code is close to solved. The bottleneck in AI-assisted engineering is
 - **2012:** founded Gereji, a Shopify-like store platform built from scratch. It reached 50 paying retailers and joined the Savannah Fund accelerator, then ran out of money because the free hands-on support I gave every customer didn't scale.
 - **2016 to 2025:** Zendesk, from senior engineer in test to staff engineer. I built Go diagnostics that ended up in 95% of production services, a zero-downtime etcd v2-to-v3 migration across production Kubernetes, and inbound email authentication with ARC.
 - **2019:** wrote [Therfoo](https://github.com/therfoo/therfoo) by hand to learn ML: backprop, optimizers, regularization and numerical gradient checks, in Go.
-- **June 2025:** Zendesk let me go. Seven weeks later I started Zerfoo. Since then I've created 81 public repositories with 9,503 commits.
+- **June 2025:** left Zendesk. Seven weeks later I started Zerfoo. Since then I've created 81 public repositories with 9,503 commits.
 
 ## How I work
 
