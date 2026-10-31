@@ -31,6 +31,41 @@ I give each project its own GitHub organization, so most of my work isn't under 
 | [narrate-it](https://github.com/narrate-it) | [narrate](https://github.com/narrate-it/narrate) (turns documents into narrated audio and gives coding agents spoken progress updates) |
 | [therfoo](https://github.com/therfoo) | [therfoo](https://github.com/therfoo/therfoo), the 2019 library that became Zerfoo |
 
+<details>
+<summary>25 more projects, by commit count</summary>
+
+| Repository | Started | Commits | What it is |
+|---|---|---:|---|
+| [zerfoo/zerfoo](https://github.com/zerfoo/zerfoo) | 2025 | 4,037 | Pure-Go ML framework for inference, training and serving, with zero CGo |
+| [kazi-org/kazi](https://github.com/kazi-org/kazi) | 2025 | 3,157 | Keeps a coding agent working until its goal is objectively true, or says why not |
+| [sirerun/serenity](https://github.com/sirerun/serenity) | 2026 | 1,008 | Personal memory for agents, kept in a Git repository you own |
+| [sirerun/gist](https://github.com/sirerun/gist) | 2026 | 637 | Context library for LLM applications in Go |
+| [zerfoo/ztensor](https://github.com/zerfoo/ztensor) | 2026 | 457 | Tensors, compute engine and graphs for Go, with GPU backends and no CGo |
+| [feza-ai/spark](https://github.com/feza-ai/spark) | 2026 | 433 | Single-binary orchestrator that runs Kubernetes manifests on one GPU host |
+| [ajent-social/ajent-social](https://github.com/ajent-social/ajent-social) | 2026 | 387 | The ajent.social platform: Go, Postgres and HTMX |
+| [agentgavel/agentgavel](https://github.com/agentgavel/agentgavel) | 2026 | 253 | Adversarial benchmark for AI agent governance |
+| [kazi-org/dira](https://github.com/kazi-org/dira) | 2026 | 230 | Decisions and the alternatives they rejected, kept in Git for agents |
+| [sirerun/mint](https://github.com/sirerun/mint) | 2026 | 216 | Turns an OpenAPI 3.x spec into a working Go MCP server |
+| [kazi-org/wazi](https://github.com/kazi-org/wazi) | 2026 | 172 | Read-only 3D view of Markdown project plans |
+| [zerfoo/zonnx](https://github.com/zerfoo/zonnx) | 2025 | 100 | ONNX-to-GGUF converter, single static binary |
+| [therfoo/therfoo](https://github.com/therfoo/therfoo) | 2019 | 83 | Deep learning library written by hand in 2019; became Zerfoo |
+| [dndungu/router](https://github.com/dndungu/router) | 2016 | 71 | Trie-based HTTP router for Go |
+| [dndungu/rest](https://github.com/dndungu/rest) | 2016 | 71 | RESTful HTTP handlers for any database backend |
+| [ajent-social/go](https://github.com/ajent-social/go) | 2026 | 59 | Go foundation for the Ajent agent-maintained standard library |
+| [kazi-org/fanisi](https://github.com/kazi-org/fanisi) | 2026 | 57 | Coding harness that cuts tokens, cost and time |
+| [zerfoo/zmf](https://github.com/zerfoo/zmf) | 2025 | 54 | Zerfoo model format |
+| [zerfoo/float16](https://github.com/zerfoo/float16) | 2025 | 51 | Float16 and BFloat16 arithmetic for Go |
+| [ajent-social/ajent](https://github.com/ajent-social/ajent) | 2026 | 48 | CLI and MCP server for ajent.social |
+| [ajent-social/capabilities](https://github.com/ajent-social/capabilities) | 2026 | 40 | Evidence-backed capability contracts, RFC open for feedback |
+| [dndungu/sitiri](https://github.com/dndungu/sitiri) | 2014 | 37 | Web application framework for RESTful APIs |
+| [dndungu/director](https://github.com/dndungu/director) | 2017 | 35 | HTTPS proxy that provisions Let's Encrypt certificates automatically |
+| [zerfoo/metee](https://github.com/zerfoo/metee) | 2026 | 30 | Tree-based machine learning for Go |
+| [zerfoo/ztoken](https://github.com/zerfoo/ztoken) | 2026 | 27 | BPE tokenizer for Go, reads HuggingFace and GGUF tokenizers |
+
+Counts are from October 2026. Package taps, websites, organization profile repos and a few small or undocumented repos are left out.
+
+</details>
+
 ## What I believe
 
 Generating code is close to solved. The bottleneck in AI-assisted engineering is verification and memory: proving what an agent did, and remembering why. Most of what I build is that unglamorous layer.
