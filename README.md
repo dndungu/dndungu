@@ -9,6 +9,7 @@ I learn by building the underlying mechanics myself. I grew up on a small farm i
 - A 229B model with 128.8 GB of weights loads in 6.3 seconds through memory mapping and decodes on a 128 GB machine with no GPU. It runs at 0.06 tokens a second, so it's a capability result, not a speed one. Ollama returns HTTP 500 on the same model and hardware.
 - Gemma 3 1B runs at 235 tokens a second on a DGX Spark, 1.25x Ollama. At 3B and 7B it's at parity, and I don't claim a win there. These are my own runs and haven't been independently reproduced.
 - The README has a section called [Where our kernels lost](https://github.com/zerfoo/zerfoo#benchmarks): a GPU kernel I fused by hand was slower than the simpler path, so it's off by default.
+- [zer.foo](https://zer.foo) also hosts a free model designer: describe a prediction task in plain language and download a Zerfoo project that trains on your own machine.
 
 **[AgentGavel](https://agentgavel.dev)**: an adversarial benchmark for AI agent frameworks. It asks whether the control plane still holds when the model is fully compromised. It separates hard governance, deterministic checks that refuse unsafe actions, from soft governance, prompts a model can be talked out of. I also build one of the frameworks it tests, so that adapter is labeled unofficial. ([repo](https://github.com/agentgavel/agentgavel))
 
